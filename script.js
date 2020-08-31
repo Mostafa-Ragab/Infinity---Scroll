@@ -17,7 +17,7 @@ function imageLoaded() {
     imagesLoaded++ 
     if(imagesLoaded === totalImages) {
         ready = true;
-        loader.hidden = true;
+        loader.hidden = true
     }
 }
 // Helper function to set Attributes on DOM Elements    
